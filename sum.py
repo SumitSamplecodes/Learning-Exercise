@@ -1,16 +1,7 @@
-## Defining a class
-class Circle:
-    def __init__(self, radius):  # instance attribute
-        self.radius = radius
+swaping two numbers without using a third variable.
+a = 5
+b = 6
+result a = 6 and b = 5
 
-    ## Define a  Magic Method that is automatically called when printing an object
-    ## YOUR CODE STARTS HERe
-    def __str__(self):
-        return str(self.radius)
+positve numbers, negtive numbers and postive negative both
 
-
-## Creating an instance called moon with radius 1737
-moon = Circle(1737)
-
-## Printing the moon object
-print(moon)
